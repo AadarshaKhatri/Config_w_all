@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="models.Vechile" id="car">
+        <property name="name" value="Honda"/>
+        <property name="no_of_wheels" value="4"/>
+        <property name="number_plate" value ="2345"/>
+    </bean>
+    <bean class="models.Vechile" id ="bike">
+        <property name="name" value="Duke"/>
+        <property name="no_of_wheels" value="2"/>
+        <property name="number_plate" value="4762"/>
+    </bean>
+
+</beans>
